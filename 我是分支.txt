@@ -1,0 +1,13 @@
+spring.application.name=config-server
+server.port=7001
+
+# 此应用为注册中心，false：不向注册中心注册自己。
+#eureka.client.register-with-eureka=false
+
+# 注册中心职责是维护服务实例，false：不检索服务。
+#eureka.client.fetch-registry=false
+#配置git仓库位置
+spring.cloud.config.server.git.uri=https://github.com/baijianjun123456/BaijianjunSpringCloudLearning.git
+spring.cloud.config.server.git.searchPaths=spring_cloud_action/config-rep/
+spring.cloud.config.server.git.username=1054392287@qq.com
+spring.cloud.config.server.git.password=www.aa8350450
